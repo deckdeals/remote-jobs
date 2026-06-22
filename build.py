@@ -26,7 +26,7 @@ OUT = os.path.join(ROOT, "public")
 SITE_NAME = "Remote Jobs Daily"
 TAGLINE = "Fresh remote jobs, updated every day — work from anywhere."
 
-SITE_URL = (os.environ.get("SITE_URL") or "https://gamedeckdeals.github.io/remote-jobs").rstrip("/")
+SITE_URL = (os.environ.get("SITE_URL") or "https://deckdeals.github.io/remote-jobs").rstrip("/")
 ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "").strip()
 GOOGLE_VERIFY = os.environ.get("GOOGLE_VERIFY", "").strip()
 
